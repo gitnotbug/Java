@@ -1,0 +1,23 @@
+
+server:
+  port: 8081
+spring:
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_flower?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+
+  web:
+    resources:
+      chain:
+        strategy:
+          content:
+            paths: "/**"
+            enabled: true
+
+mybatis:
+  type-aliases-package: com.shanzhu.flower.entity
+
+
+uploadPath: /Users/jiawang/saleProject/l12l/flower-frontend/static/imgs/
