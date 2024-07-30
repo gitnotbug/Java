@@ -4,8 +4,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-
 /**
  * SpringBoot 启动类
  * 项目启动入口（点击右键 选择 "run BackendApplication" 启动项目）
